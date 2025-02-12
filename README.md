@@ -2,7 +2,7 @@ Mouse Microsomal Stability Prediction with Machine Learning
 
 Overview
 
-I built a model which predicts mouse liver microsomal stability of chemical compounds using machine learning. I implemented 3 models: Naive Bayesian, SVM and Random Forest. The random forest model emerges to be the best in a 5-fold internal cross-validation, and is chosen for further refinement. The best model underwent hyperparameter optimization and calibration, which yielded a model with good predicting power (AUC = 0.82, Log Loss = 0.47) on a training set of 759 compounds. The model performs moderately on an independent unseen dataset of 571 compounds (AUC = 0.82, Log Loss = 0.47). 
+I built a model which predicts mouse liver microsomal stability of chemical compounds using machine learning. I implemented 3 models: Naive Bayesian, SVM and Random Forest. The random forest model emerges to be the best in a 5-fold internal cross-validation, and is chosen for further refinement. The best model underwent hyperparameter optimization and calibration, which yielded a model with good predicting power (AUC = 0.82, Log Loss = 0.47) on a training set of 759 compounds. The model performs moderately on an independent unseen dataset of 571 compounds (AUC = 0.65, Log Loss = 0.55). 
 
 Features
 
